@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navBackground {
+  background-color: beige;
+  width: 100%;
+  padding: 15px -15px;
+  padding-left: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navTitle {
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 700;
+}
+
+.navList {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  list-style-type: none;
+}
+
+.navButton {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
