@@ -1,0 +1,66 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+caption {
+  background-color: #4caf50;
+  padding: 12px;
+  font-size: 15px;
+  color: white;
+  font-weight: 500;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+thead th {
+  background-color: #4caf50;
+  color: white;
+  text-align: left;
+  padding: 12px;
+  font-size: 15px;
+}
+
+tbody td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+  background-color: #eaf6ff;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+th,
+td {
+  text-align: left;
+}
+
+tfoot td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  font-weight: bold;
+  background-color: #f1f1f1;
+  text-align: right;
+  font-size: 15px;
+  color: #333;
+}
+
+tfoot td:first-child {
+  text-align: left; /* keep "Total" aligned left */
+  color: #000;
+}
